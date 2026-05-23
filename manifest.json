@@ -1,0 +1,19 @@
+{
+  "id": "Library",
+  "name": "Nirlani biblioteca",
+  "short_name": "Biblioteca Virtual",
+  "scope": "./",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#F8AE02",
+  "icons": [
+    {
+      "src": "profile.avif",
+      "sizes": "any",
+      "type": "image/avif"
+    }
+  ],
+  "app_name": "Nirlani biblioteca virtual",
+  "description": "Biblioteca virtual Nirlani"
+}

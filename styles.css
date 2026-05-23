@@ -1,0 +1,174 @@
+/* Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* Fundo */
+body{
+  font-family:'Merriweather', serif;
+  background:
+  url(bibli2.avif);
+  
+  background-size:cover;
+  background-position:center;
+
+  min-height:100vh;
+  color:#3e2c1c;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  padding:20px;
+}
+
+/* Card principal */
+.container{
+  width:100%;
+  max-width:430px;
+
+  background:rgba(255,255,255,0.88);
+  backdrop-filter:blur(10px);
+
+  padding:35px;
+  border-radius:28px;
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Centralização */
+.text-center{
+  text-align:center;
+}
+
+/* Foto */
+.avatar{
+  width:130px;
+  height:130px;
+
+  border-radius:50%;
+  object-fit:cover;
+
+  border:4px solid #8b6f47;
+
+  margin-bottom:18px;
+}
+
+/* Nome */
+.title{
+  font-size:32px;
+  color:#5a3e2b;
+  margin-bottom:8px;
+}
+
+/* Descrição */
+.subtitle{
+  font-size:15px;
+  color:#7a6856;
+  line-height:1.7;
+
+  margin-bottom:30px;
+}
+
+/* Área links */
+.links{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+/* Botões */
+.btn{
+  text-decoration:none;
+
+  display:flex;
+  align-items:center;
+
+  padding:18px;
+
+  border-radius:18px;
+
+  transition:0.3s ease;
+
+  color:white;
+}
+
+/* Conteúdo interno */
+.link-content{
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+
+/* Emoji */
+.emoji{
+  font-size:30px;
+}
+
+/* Textos */
+.link-text h3{
+  font-size:17px;
+  margin-bottom:4px;
+}
+
+.link-text p{
+  font-size:13px;
+  opacity:0.9;
+}
+
+/* Botões personalizados */
+.btn-primary{
+  background:linear-gradient(135deg,#6f4e37,#4e342e);
+}
+
+.btn-secondary{
+  background:linear-gradient(135deg,#a67c52,#7b5e3b);
+}
+
+.btn-dark{
+  background:linear-gradient(135deg,#2d1f18,#120d0a);
+}
+
+/* Hover */
+.btn:hover{
+  transform:translateY(-4px) scale(1.02);
+}
+
+/* Botão tema */
+.btn-outline{
+  margin-top:24px;
+
+  background:transparent;
+
+  border:2px solid #6f4e37;
+
+  color:#5a3e2b;
+
+  justify-content:center;
+}
+
+/* Modo escuro */
+.dark-mode{
+  background:#151311;
+  background-image: url(bibli.avif);
+}
+
+.dark-mode .container{
+  background:rgba(25,20,18,0.92);
+}
+
+.dark-mode .title{
+  color:#f0d9b5;
+}
+
+.dark-mode .subtitle{
+  color:#d7c2a4;
+}
+
+.dark-mode .btn-outline{
+  color:#f0d9b5;
+  border-color:#f0d9b5;
+}
