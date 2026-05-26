@@ -9,7 +9,7 @@
 body{
   font-family:'Merriweather', serif;
   background:
-  url(bibli2.avif);
+  url(backgroud.png);
   
   background-size:cover;
   background-position:center;
@@ -151,9 +151,8 @@ body{
 }
 
 /* Modo escuro */
-.dark-mode{
-  background:#151311;
-  background-image: url(bibli.avif);
+.dark-mode{ 
+  background-image: url(modoescuro.png);
 }
 
 .dark-mode .container{
