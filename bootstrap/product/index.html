@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Escolha seu chinelo Havaianas preferido entre vários modelos confortáveis." />
+    <meta
+      name="author"
+      content="Havaianas"
+    />
+    <meta name="generator" content="Astro v5.13.2" />
+    <title>Havaianas · Modelos de chinelo</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/product/"
+    />
+    <script src="../assets/js/color-modes.js"></script>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#712cf9" />
+    <link href="product.css" rel="stylesheet" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: white;
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow:
+          inset 0 0.5em 1.5em #0000001a,
+          inset 0 0.125em 0.5em #00000026;
+      }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+      .bd-mode-toggle .bi {
+        width: 1em;
+        height: 1em;
+      }
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path
+          d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+        ></path>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path
+          d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"
+        ></path>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path
+          d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"
+        ></path>
+        <path
+          d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"
+        ></path>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path
+          d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+        ></path>
+      </symbol>
+    </svg>
+    <div
+      class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle"
+    >
+      <button
+        class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+        id="bd-theme"
+        type="button"
+        aria-expanded="false"
+        data-bs-toggle="dropdown"
+        aria-label="Toggle theme (auto)"
+      >
+        <svg class="bi my-1 theme-icon-active" aria-hidden="true">
+          <use href="#circle-half"></use>
+        </svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-end shadow"
+        aria-labelledby="bd-theme-text"
+      >
+        <li>
+          <button
+            type="button"
+            class="dropdown-item d-flex align-items-center"
+            data-bs-theme-value="light"
+            aria-pressed="false"
+          >
+            <svg class="bi me-2 opacity-50" aria-hidden="true">
+              <use href="#sun-fill"></use>
+            </svg>
+            Light
+            <svg class="bi ms-auto d-none" aria-hidden="true">
+              <use href="#check2"></use>
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="dropdown-item d-flex align-items-center"
+            data-bs-theme-value="dark"
+            aria-pressed="false"
+          >
+            <svg class="bi me-2 opacity-50" aria-hidden="true">
+              <use href="#moon-stars-fill"></use>
+            </svg>
+            Dark
+            <svg class="bi ms-auto d-none" aria-hidden="true">
+              <use href="#check2"></use>
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="dropdown-item d-flex align-items-center active"
+            data-bs-theme-value="auto"
+            aria-pressed="true"
+          >
+            <svg class="bi me-2 opacity-50" aria-hidden="true">
+              <use href="#circle-half"></use>
+            </svg>
+            Auto
+            <svg class="bi ms-auto d-none" aria-hidden="true">
+              <use href="#check2"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol
+        id="aperture"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+      >
+        <circle cx="12" cy="12" r="10"></circle>
+        <path
+          d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"
+        ></path>
+      </symbol>
+      <symbol id="cart" viewBox="0 0 16 16">
+        <path
+          d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+        ></path>
+      </symbol>
+      <symbol id="chevron-right" viewBox="0 0 16 16">
+        <path
+          fill-rule="evenodd"
+          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+        ></path>
+      </symbol>
+    </svg>
+    <nav
+      class="navbar navbar-expand-md bg-dark sticky-top border-bottom"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand d-md-none" href="#">
+          <svg class="bi" width="24" height="24" aria-hidden="true">
+            <use xlink:href="#aperture"></use>
+          </svg>
+          Havaianas
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas"
+          aria-controls="offcanvas"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvas"
+          aria-labelledby="offcanvasLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Havaianas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Aperture">
+                  <svg class="bi" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="#aperture"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Enterprise</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Cart">
+                  <svg class="bi" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div
+        class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary"
+      >
+        <div class="col-md-6 p-lg-5 mx-auto my-5">
+          <h1 class="display-3 fw-bold">Escolha seu Havaianas</h1>
+          <h3 class="fw-normal text-muted mb-3">
+            Conforto e estilo em modelos para todo dia
+          </h3>
+          <div class="d-flex gap-3 justify-content-center lead fw-normal">
+            <a class="icon-link" href="#">
+              Ver modelos
+              <svg class="bi" aria-hidden="true">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+            <a class="icon-link" href="#">
+              Comprar agora
+              <svg class="bi" aria-hidden="true">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div>
+        </div>
+          class="product-device product-device-2 shadow-sm d-none d-md-block"
+       </div>
+      </div>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div>
+          class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+        >
+          <div class="my-3 py-3">
+            <img src="chinelo.png" lt="Havaianas Slim" class="img-fluid rounded-3 mb-3" />
+            <h2 class="display-5">Havaianas Slim</h2>
+            <p class="lead">O clássico leve e confortável para usar todos os dias.</p>
+          </div>
+          
+          <div class="my-3 p-3">
+            <img src="https://havaianas.com.br/cdn/shop/files/4146673-8811-top-pride-0.png?v=1747851695" alt="Havaianas Top" class="img-fluid rounded-3 mb-3" />
+            <h2 class="display-5">Havaianas Top</h2>
+            <p class="lead">Design premium com alça tradicional para mais firmeza.</p>
+          </div>
+          <div
+            class="bg-dark shadow-sm mx-auto"
+            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
+          ></div>
+        </div>
+      </div>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div
+          class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+        >
+          <div class="my-3 p-3">
+             
+            <img src="https://havaianas.com.br/cdn/shop/files/4147239-brasil-tech-0001-0_c41f12ac-7de6-43f2-a875-2c307189d074.jpg?v=1734124771" alt="Havaianas Brasil" class="img-fluid rounded-3 mb-3" />
+            <h2 class="display-5">Havaianas Brasil</h2>
+            <p class="lead">Cores vibrantes e a pegada brasileira em cada passo.</p>
+          </div>
+
+        <div
+          
+        >
+          <div class="my-3 py-3">
+            <img src="chinelo3.png" class="img-fluid rounded-3 mb-3" />
+            <h2 class="display-5">Havaianas Flash</h2>
+            <p class="lead">Estilo moderno com alças coloridas para quem quer se destacar.</p>
+          </div>
+      </div>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div
+       
+        >
+          <div class="my-3 p-3">
+            <img src="data:image/jpeg;base64,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" alt="Havaianas Origine" class="img-fluid rounded-3 mb-3" />
+            <h2 class="display-5">Havaianas Origine</h2>
+            <p class="lead">Modelagem tradicional com sola resistente e elegante.</p>
+          </div>
+        <div
+          class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+        >
+          <div class="my-3 py-3">
+            <img src="https://m.media-amazon.com/images/I/51cf1mkD+iL._AC_.jpg"
+             > 
+             <h2 class="display-5">Havaianas Preta</h2>
+            <p class="lead">Chique e confortavel.</p>
+          
+        </div>
+      </div>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div
+          class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+        >
+          <div class="my-3 p-3">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRWQ0jEDLFRZt6BKhBX7Jz3K684hTDD6bBE-csr2INWoWBwOtuywGzKLWtjGVt9e575WSov9rcyjOWqclaZeaaeJ2nPwDHeRmsjCUNO6-WXvlg4w7iJRcMW7wFe7zcNHkhdUH2gboE&usqp=CAc" alt="Havaianas Waves" class="img-fluid rounded-3 mb-3" />
+            <h2 class="display-5">Havaianas Waves</h2>
+            <p class="lead">Conforto para praia e cidade com estilo praiano.</p>
+          </div>
+        <div
+          class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+        >
+          <div class="my-3 py-3">
+            <img src="https://down-br.img.susercontent.com/file/52c971bdbeb2074d8c9cc5343901d34e" alt="Havaianas Neon" class="img-fluid rounded-3 mb-3" />
+            <h2 class="display-5">Havaianas Neon</h2>
+            <p class="lead">Cores vivas que fazem qualquer visual brilhar.</p>
+          </div>
+         
+      </div>
+    </main>
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="d-block mb-2"
+            role="img"
+            viewBox="0 0 24 24"
+          >
+            <title>Product</title>
+            <circle cx="12" cy="12" r="10"></circle>
+            <path
+              d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"
+            ></path>
+          </svg>
+          <small class="d-block mb-3 text-body-secondary"
+            &copy; 2017–2025></small>
+          
+          
+        <div>classe="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Cool stuff</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Random feature</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Team feature</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Stuff for developers</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Another one</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Last time</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Resource name</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Resource</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Another resource</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Final resource</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Business</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Education</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Government</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">Gaming</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">Team</a>
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Locations</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="../assets/dist/js/bootstrap.bundle.min.js"
+      class="astro-vvvwv3sm"
+    ></script>
+  </body>
+</html>

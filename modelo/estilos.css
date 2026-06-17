@@ -1,0 +1,66 @@
+html, body, reset {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font: 1em sans-serif;
+}
+
+.texto-direita{
+    text-align: right;
+}
+
+.barra-navegacao {
+    background-color: black;
+    padding: 10px;
+}
+
+.link {
+    padding: 5px 25px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+/* Teg H1 é para títulos */
+h1{
+    color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 20px;
+    background-color:  rgb(139, 135, 139);
+}
+
+
+.texto-direito{
+    text-align: right;
+}
+
+
+.texto-centro{
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+}
+ 
+.wrapper {
+    display:flex
+}
+.meia-caixa  {
+    width: 50%;
+    height: 250px;
+
+    padding: 10px;
+
+    color: white;
+    background-color: red;
+}
+
+.caixa-completa  {
+    width: 100%;
+    height: 500px;
+    color: white;
+    background-color: green;
+}
