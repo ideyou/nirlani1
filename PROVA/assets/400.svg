@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://cdn.isaque.it/error/400/ -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- INDEX -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Isaque Costa">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+    <!-- DESCRIPTION -->
+    <title>Erro 400</title>
+    <meta content="Erro 400" property="og:title">
+	<meta content="Desenvolvido por isaque.it - Acelerando Ideias!" name="description">
+	<meta content="Desenvolvido por isaque.it - Acelerando Ideias!" property="og:description">
+    <meta name="keywords" content="responsivo, pagina de error, vector, minimalista, design, simples, bonito, ideyou, ios, android, isaque costa">
+    <!-- FAVICONS -->
+	<link rel="apple-touch-icon" href="https://cdn.isaque.it/assets/icons/apple-icon-180.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="https://cdn.isaque.it/assets/icons/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="196x196" href="https://cdn.isaque.it/assets/icons/favicon-196.png">
+	<meta name="msapplication-square70x70logo" content="https://cdn.isaque.it/assets/icons/mstile-icon-128.png">
+	<meta name="msapplication-square150x150logo" content="https://cdn.isaque.it/assets/icons/mstile-icon-270.png">
+	<meta name="msapplication-square310x310logo" content="https://cdn.isaque.it/assets/icons/mstile-icon-558.png">
+	<meta name="msapplication-wide310x150logo" content="https://cdn.isaque.it/assets/icons/mstile-icon-558-270.png">
+    <!-- ASSETS -->
+    <link href="./400_files/main-styles.css" rel="stylesheet">
+    <link href="./400_files/mobile-styles.css" rel="stylesheet">
+    <link href="./400_files/css" rel="stylesheet">
+</head>
+<body class="bg-quinzel">
+    <div class="main-area">
+        <span>
+            <h1>400</h1>
+            <h5>Você fez uma solicitação imprópria</h5>
+        </span>
+        <img src="./400_files/400.svg">
+        <button class="btn" onclick="history.back()">Voltar a página anterior...</button>
+    </div>
+
+
+</body></html>
